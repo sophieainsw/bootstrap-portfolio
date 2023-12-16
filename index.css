@@ -14,6 +14,10 @@ body{
     background-color: white;
   }
 
+  .navbar-nav{
+    font-size: 20px !important;
+  }
+
 /* Jumbotron  */
 .jumbotron {
     background-image: url(images/redviolet-solid-color-background-pale-260nw-2337728685.webp);
@@ -55,4 +59,12 @@ body{
 
 .bg-dark {
 background-color: palevioletred !important;
+}
+.card1{
+  transition: 0.3s;
+}
+.card1:hover {opacity: 0.6}
+
+a:hover {
+  background-color: grey;
 }
