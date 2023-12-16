@@ -1,0 +1,41 @@
+/* Jumbotron  */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+
+
+/* Jumbotron  */
+.jumbotron {
+    background-image: url(images/vecteezy_abstract-colorful-pink-blue-and-purple-blurred-mesh-background_21120944.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#titlecontent{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#contenttext{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+.sideAccent {
+    background: pink;
+    max-width: 1px;
+  }
+
