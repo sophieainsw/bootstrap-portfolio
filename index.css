@@ -1,25 +1,35 @@
+body{
+  margin-top: 100px;
+}
+
 /* Jumbotron  */
+
+.navbar{
+  background-color: white !important;
+  padding: 25px;
+}
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+    background-color: white;
   }
-  .nav-item {
-    margin: 0px 15px;
-  }
-  
-
 
 /* Jumbotron  */
 .jumbotron {
-    background-image: url(images/vecteezy_abstract-colorful-pink-blue-and-purple-blurred-mesh-background_21120944.jpg);
+    background-image: url(images/redviolet-solid-color-background-pale-260nw-2337728685.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
   }
-  
+
+
+  #herotext {
+    font-size: 18px;
+  }
 #titlecontent{
     text-align: center;
     padding: 30px;
@@ -35,7 +45,16 @@
 }
 
 .sideAccent {
-    background: pink;
+    background: palevioletred;
     max-width: 1px;
   }
 
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.bg-dark {
+background-color: palevioletred !important;
+}
