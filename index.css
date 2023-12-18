@@ -1,0 +1,95 @@
+body{
+  margin-top: 50px;
+}
+
+/* Jumbotron  */
+
+.navbar{
+  background-color: white !important;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    background-color: white;
+  }
+
+  .navbar-nav{
+    font-size: 20px !important;
+  }
+
+/* Jumbotron  */
+.jumbotron {
+    background-image: url(images/redviolet-solid-color-background-pale-260nw-2337728685.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 20px;
+  }
+
+  .selfportrait {
+    max-width: 200px;
+  }
+
+#titlecontent{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#contenttext{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+.sideAccent {
+    background: palevioletred;
+    max-width: 1px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.bg-dark {
+background-color: palevioletred !important;
+}
+
+.card{
+  font-size: 20px !important;
+}
+.card1{
+  transition: 0.3s;
+}
+.card1:hover {opacity: 0.6}
+
+a:hover {
+  background-color: grey;
+}
+
+@media only screen and (max-width: 767px) {
+ .jumboCopy {
+  margin-top: 200px;
+ }
+
+ #titlecontent {
+  margin-top: 180px;
+ }
+
+ .social-links{
+  max-width: 120px;
+ }
+
+}
