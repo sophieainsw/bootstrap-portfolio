@@ -6,7 +6,10 @@ body{
 
 .navbar{
   background-color: white !important;
-  padding: 25px;
+}
+
+.navbar-brand {
+  font-size: 35px !important;
 }
 .navbar-nav {
     margin-left: auto;
@@ -31,6 +34,9 @@ body{
     font-size: 20px;
   }
 
+  .selfportrait {
+    max-width: 200px;
+  }
 
 #titlecontent{
     text-align: center;
@@ -60,6 +66,10 @@ body{
 .bg-dark {
 background-color: palevioletred !important;
 }
+
+.card{
+  font-size: 20px !important;
+}
 .card1{
   transition: 0.3s;
 }
@@ -67,4 +77,19 @@ background-color: palevioletred !important;
 
 a:hover {
   background-color: grey;
+}
+
+@media only screen and (max-width: 767px) {
+ .jumboCopy {
+  margin-top: 200px;
+ }
+
+ #titlecontent {
+  margin-top: 180px;
+ }
+
+ .social-links{
+  max-width: 120px;
+ }
+
 }
